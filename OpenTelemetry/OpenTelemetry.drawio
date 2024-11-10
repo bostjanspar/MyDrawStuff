@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4" pages="2">
   <diagram id="39KQX6Ht3fXacYNEG0iI" name="observability">
-    <mxGraphModel dx="1050" dy="1357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2219" dy="1357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,8 +31,8 @@
         <mxCell id="EeRUvg3KgY4bu1h9nyyc-4" value="dimensionality" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};shadow=0;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Architects Daughter;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="390" y="-110" width="110" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="EeRUvg3KgY4bu1h9nyyc-5" value="number of unique values for a given key within a set&lt;br&gt;HTTP status code" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#EDEDED;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;" vertex="1" parent="1">
-          <mxGeometry x="155" y="-150" width="175" height="60" as="geometry" />
+        <mxCell id="EeRUvg3KgY4bu1h9nyyc-5" value="&lt;br&gt;HTTP status code" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#EDEDED;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="25" y="-135" width="110" height="10" as="geometry" />
         </mxCell>
         <mxCell id="EeRUvg3KgY4bu1h9nyyc-7" style="edgeStyle=entityRelationEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=0;sketch=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=#fff2cc;" edge="1" parent="1" source="EeRUvg3KgY4bu1h9nyyc-6" target="EeRUvg3KgY4bu1h9nyyc-4">
           <mxGeometry relative="1" as="geometry" />
@@ -43,11 +43,26 @@
         <mxCell id="EeRUvg3KgY4bu1h9nyyc-8" value="&lt;font&gt;number of unique keys&lt;/font&gt;&lt;div&gt;&lt;font&gt;width of telemetry data&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#EDEDED;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;" vertex="1" parent="1">
           <mxGeometry x="390" y="-160" width="160" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="FXbTa5d-qTnp5B1caySA-1" value="low" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=middle;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};rounded=1;shadow=0;sketch=1;strokeColor=#d6b656;strokeWidth=1;spacing=4;arcSize=50;fontFamily=Architects Daughter;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FXbTa5d-qTnp5B1caySA-4" style="edgeStyle=entityRelationEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;shadow=0;sketch=1;strokeColor=#d6b656;strokeWidth=1;align=center;verticalAlign=middle;spacing=4;arcSize=50;fontFamily=Architects Daughter;fontSize=12;fontColor=default;autosize=1;fillColor=#fff2cc;" edge="1" parent="1" source="FXbTa5d-qTnp5B1caySA-3" target="EeRUvg3KgY4bu1h9nyyc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FXbTa5d-qTnp5B1caySA-3" value="high" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=middle;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};rounded=1;shadow=0;sketch=1;strokeColor=#d6b656;strokeWidth=1;spacing=4;arcSize=50;fontFamily=Architects Daughter;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FXbTa5d-qTnp5B1caySA-5" value="number of unique values for a given key within a set&lt;br&gt;HTTP status code" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#EDEDED;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="165" y="-140" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FXbTa5d-qTnp5B1caySA-6" value="users, session, transaction id" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#EDEDED;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="-70" width="180" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="VFGiiUs8xga3N3kZTZNb" name="Page-2">
-    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="ANaL1DxnVE4xrbeSQCjZ-0" />
         <mxCell id="ANaL1DxnVE4xrbeSQCjZ-1" parent="ANaL1DxnVE4xrbeSQCjZ-0" />
