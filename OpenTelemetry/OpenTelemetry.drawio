@@ -31,8 +31,17 @@
         <mxCell id="EeRUvg3KgY4bu1h9nyyc-4" value="dimensionality" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};shadow=0;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Architects Daughter;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="390" y="-110" width="110" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="EeRUvg3KgY4bu1h9nyyc-5" value="&lt;font&gt;number of unique keys&lt;/font&gt;&lt;div&gt;&lt;font&gt;width of telemetry data&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#EDEDED;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;" vertex="1" parent="1">
-          <mxGeometry x="345" y="-180" width="215" height="60" as="geometry" />
+        <mxCell id="EeRUvg3KgY4bu1h9nyyc-5" value="number of unique values for a given key within a set&lt;br&gt;HTTP status code" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#EDEDED;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="155" y="-150" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EeRUvg3KgY4bu1h9nyyc-7" style="edgeStyle=entityRelationEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;shadow=0;sketch=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=#fff2cc;" edge="1" parent="1" source="EeRUvg3KgY4bu1h9nyyc-6" target="EeRUvg3KgY4bu1h9nyyc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EeRUvg3KgY4bu1h9nyyc-6" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 20.8px;&quot;&gt;&lt;font color=&quot;#3d3b49&quot;&gt;cardinality&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};shadow=0;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="165" y="-80" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EeRUvg3KgY4bu1h9nyyc-8" value="&lt;font&gt;number of unique keys&lt;/font&gt;&lt;div&gt;&lt;font&gt;width of telemetry data&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#EDEDED;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-160" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
